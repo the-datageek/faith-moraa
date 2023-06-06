@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css'
-import Landingpage from './components/LandingPage/landingpage';
-
-
 
 
 const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
@@ -33,9 +30,8 @@ const Tag = ({ text }) => (
   <div className='tag'><span>#</span> {text}</div>
 );
 
-const App = () => (
-  <div className='app'>
-    <Landingpage/>     
+
+         
     <div className='tag-list'>
 
       
@@ -50,8 +46,6 @@ const App = () => (
       <div className='fade' />
       
     </div>
-    
-  </div>
-);
 
-export default App
+
+
